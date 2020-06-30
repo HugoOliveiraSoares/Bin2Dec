@@ -30,3 +30,5 @@ constraints:
 ## Bonus features
 
 -   [x] ~~User can enter a variable number of binary digits~~
+
+### [Demo](https://hugooliveirasoares.github.io/Bin2Dec/)
