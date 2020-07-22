@@ -22,7 +22,7 @@ public class converter {
     }
 
     // Returns false if the binary String not contains anything other than 0 or 1
-    private static boolean validate_input(String bin) {
+    public static boolean validate_input(String bin) {
         
         boolean flag = false;
 
@@ -33,7 +33,7 @@ public class converter {
         return flag;
     }
 
-    private static int bin2dec(String bin)
+    public static int bin2dec(String bin)
     {
         int decimal = 0;
         for (int aux = bin.length() - 1; aux >= 0; aux--)
